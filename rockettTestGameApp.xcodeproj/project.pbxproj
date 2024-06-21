@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3EBF20EE2C255E3300C3A90E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF20ED2C255E3300C3A90E /* AppDelegate.swift */; };
 		3EBF20F02C255E3300C3A90E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3EBF20EF2C255E3300C3A90E /* GameScene.sks */; };
-		3EBF20F22C255E3300C3A90E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3EBF20F12C255E3300C3A90E /* Actions.sks */; };
 		3EBF20F42C255E3300C3A90E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF20F32C255E3300C3A90E /* GameScene.swift */; };
 		3EBF20F62C255E3300C3A90E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF20F52C255E3300C3A90E /* GameViewController.swift */; };
 		3EBF20F92C255E3400C3A90E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3EBF20F82C255E3400C3A90E /* Base */; };
@@ -18,6 +17,7 @@
 		3EBF21082C255E3B00C3A90E /* rockettTestGameAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF21072C255E3B00C3A90E /* rockettTestGameAppTests.swift */; };
 		3EBF21122C255E3B00C3A90E /* rockettTestGameAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF21112C255E3B00C3A90E /* rockettTestGameAppUITests.swift */; };
 		3EBF21142C255E3B00C3A90E /* rockettTestGameAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF21132C255E3B00C3A90E /* rockettTestGameAppUITestsLaunchTests.swift */; };
+		3EBF21212C2635A900C3A90E /* unlock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3EBF21202C2635A900C3A90E /* unlock.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		3EBF20EA2C255E3300C3A90E /* rockettTestGameApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rockettTestGameApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EBF20ED2C255E3300C3A90E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EBF20EF2C255E3300C3A90E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		3EBF20F12C255E3300C3A90E /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		3EBF20F32C255E3300C3A90E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		3EBF20F52C255E3300C3A90E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		3EBF20F82C255E3400C3A90E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,6 +51,8 @@
 		3EBF210D2C255E3B00C3A90E /* rockettTestGameAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rockettTestGameAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EBF21112C255E3B00C3A90E /* rockettTestGameAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rockettTestGameAppUITests.swift; sourceTree = "<group>"; };
 		3EBF21132C255E3B00C3A90E /* rockettTestGameAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rockettTestGameAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3EBF21202C2635A900C3A90E /* unlock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = unlock.mp3; sourceTree = "<group>"; };
+		3EBF21222C2635BB00C3A90E /* pop.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = pop.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +105,11 @@
 			children = (
 				3EBF20ED2C255E3300C3A90E /* AppDelegate.swift */,
 				3EBF20EF2C255E3300C3A90E /* GameScene.sks */,
-				3EBF20F12C255E3300C3A90E /* Actions.sks */,
 				3EBF20F32C255E3300C3A90E /* GameScene.swift */,
 				3EBF20F52C255E3300C3A90E /* GameViewController.swift */,
 				3EBF20F72C255E3400C3A90E /* Main.storyboard */,
+				3EBF21222C2635BB00C3A90E /* pop.m4a */,
+				3EBF21202C2635A900C3A90E /* unlock.mp3 */,
 				3EBF20FA2C255E3A00C3A90E /* Assets.xcassets */,
 				3EBF20FC2C255E3A00C3A90E /* LaunchScreen.storyboard */,
 			);
@@ -236,9 +238,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EBF20F02C255E3300C3A90E /* GameScene.sks in Resources */,
+				3EBF21212C2635A900C3A90E /* unlock.mp3 in Resources */,
 				3EBF20F92C255E3400C3A90E /* Base in Resources */,
 				3EBF20FB2C255E3A00C3A90E /* Assets.xcassets in Resources */,
-				3EBF20F22C255E3300C3A90E /* Actions.sks in Resources */,
 				3EBF20FE2C255E3A00C3A90E /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,12 +451,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PopTheLock;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -476,12 +478,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PopTheLock;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  rockettTestGameApp
 //
-//  Created by Sarah Mejia on 6/21/24.
+//  Created by Emily Mejia on 6/21/24.
 //
 
 import UIKit
