@@ -10,8 +10,13 @@ import GameplayKit
 
 class GameScene: SKScene {
     
+    let lockTop = LockTop()
+    let lockBase = LockBase()
+    
     override func didMove(to view: SKView) {
-   
+        
+        addChild(lockTop)
+        addChild(lockBase)
     }
     func touchDown(atPoint pos : CGPoint) {
        
