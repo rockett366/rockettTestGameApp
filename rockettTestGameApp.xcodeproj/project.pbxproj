@@ -19,6 +19,7 @@
 		3EBF21142C255E3B00C3A90E /* rockettTestGameAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF21132C255E3B00C3A90E /* rockettTestGameAppUITestsLaunchTests.swift */; };
 		3EBF21212C2635A900C3A90E /* unlock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3EBF21202C2635A900C3A90E /* unlock.mp3 */; };
 		3EBF21242C26382100C3A90E /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF21232C26382100C3A90E /* Lock.swift */; };
+		3EBF21282C2A537300C3A90E /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF21272C2A537300C3A90E /* Label.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		3EBF21202C2635A900C3A90E /* unlock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = unlock.mp3; sourceTree = "<group>"; };
 		3EBF21222C2635BB00C3A90E /* pop.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = pop.m4a; sourceTree = "<group>"; };
 		3EBF21232C26382100C3A90E /* Lock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lock.swift; sourceTree = "<group>"; };
+		3EBF21272C2A537300C3A90E /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				3EBF21202C2635A900C3A90E /* unlock.mp3 */,
 				3EBF20FA2C255E3A00C3A90E /* Assets.xcassets */,
 				3EBF20FC2C255E3A00C3A90E /* LaunchScreen.storyboard */,
+				3EBF21272C2A537300C3A90E /* Label.swift */,
 			);
 			path = rockettTestGameApp;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EBF20F42C255E3300C3A90E /* GameScene.swift in Sources */,
+				3EBF21282C2A537300C3A90E /* Label.swift in Sources */,
 				3EBF20F62C255E3300C3A90E /* GameViewController.swift in Sources */,
 				3EBF21242C26382100C3A90E /* Lock.swift in Sources */,
 				3EBF20EE2C255E3300C3A90E /* AppDelegate.swift in Sources */,

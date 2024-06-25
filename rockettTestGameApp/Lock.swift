@@ -33,7 +33,7 @@ class LockBase: SKNode{
     override init(){
         base = SKShapeNode(circleOfRadius: 200)
         base.strokeColor = .gray
-        base.fillColor = SKColor(red: 38.0/255.0, green: 38.0/255.0, blue: 38.0/255.0, alpha: 1.0)
+        base.fillColor = SKColor(red: 38.0/255.0, green: 38.0/255.0, blue: 38.0/255.0, alpha: 1.0)      //background color
         base.lineWidth = 30
         
         super.init()
